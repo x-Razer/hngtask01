@@ -1,0 +1,80 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+display: grid;
+}
+
+header {
+    display: grid;
+}
+
+header {
+    background-color: #7634c7;
+    color: rgb(229, 201, 245);
+    padding: 1rem;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile {
+    background-color: #a280cc;
+}
+
+.profile-info {
+    margin: 1rem 0;
+    text-align: center;
+    justify-content: left;
+}
+
+.profile p {
+    justify-content: left;
+}
+.current-info {
+    text-align: center;
+    justify-content: left;
+}
+
+.profile-info img {
+    width: auto;
+    height: auto;
+}
+
+.goals {
+    background-color: #6021ad;
+}
+
+.goals h2 {
+    color: rgb(219, 185, 250);
+    text-align: center;
+}
+
+.present-info {
+     margin: 1rem;
+}
+
+footer nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #6c0ae2;
+    padding: 1px;
+}
+
+footer {
+    background-color: #140822;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    color: #a280cc;
+}
+
+@media(max-width:600px) {
+    section {
+        width: 100%;
+        padding:0 1rem;
+    }
+}
